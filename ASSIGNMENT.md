@@ -1,7 +1,7 @@
 # INF 554 Assignment 9
 
 ## Description 
-Assignment 9.
+Assignment 9. Use data from Assignment 1 (one year 10 countries) to build a proportional symbol map and a choropleth map with D3.
 
 ## Rubric
 
