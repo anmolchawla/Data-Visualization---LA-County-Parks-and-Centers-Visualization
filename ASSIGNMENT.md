@@ -1,13 +1,13 @@
 # INF 554 Assignment 9
 
 ## Description 
-Use the countries of Assignment 1 (one year 10 countries) to build a proportional symbol map and a choropleth map with D3 complete with labels, legend, and title.
+Use the countries of Assignment 1 (one year & 10 countries) to build a proportional symbol map and a choropleth map with D3 complete with labels, legend, and title.
 
 Demonstrate good development practices:
 - Document set-up & deployment in [README.md](README.md)
 - Use incremental commits that are consistent and tested.
 
-Publish on your USC SCF account see [SCF-HOWTO.md](SCF-HOWTO.md) and add a link to the **published** `a9.html` in `README.md`. All files, including `a9.html` should be stored in the repository. Describe the data and cite your source in `a9.html`.
+Publish your work on your USC SCF account (see [SCF-HOWTO.md](SCF-HOWTO.md)) and add a link to the **published** `a9.html` in [README.md](README.md). All files, including `a9.html` should be stored in the repository. Describe the data and cite your sources in `a9.html`.
 
 ## Rubric
 
@@ -22,5 +22,5 @@ Publish on your USC SCF account see [SCF-HOWTO.md](SCF-HOWTO.md) and add a link 
 - Homework repository must be updated before the start of next class
 - Commits after the submission deadline will not be considered unless requested
 - Late policy: 10% of total available points per each 24-hour late; duration less than 24 hours counts as one whole 24-hour
-- Homework is expected to work in: SAFARI AND CHROME (Mac), Edge AND CHROME (Windows)
+- Homework is expected to work in: SAFARI AND CHROME (Mac), EDGE AND CHROME (Windows)
 
