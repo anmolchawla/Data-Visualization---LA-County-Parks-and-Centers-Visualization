@@ -5,7 +5,9 @@ Use the countries of Assignment 1 (one year & 10 countries) to build a proportio
 
 Demonstrate good development practices:
 - Document set-up & deployment in [README.md](README.md)
-- Use incremental commits that are consistent and tested.
+- Use incremental commits that are meaningful e.g. each commit adds one feature/component.
+- Test that your code works before you commit.
+- Do not commit files that are not related to the assignment.
 
 Publish your work on your USC SCF account (see [SCF-HOWTO.md](SCF-HOWTO.md)) and add a link to the **published** `a9.html` in [README.md](README.md). All files, including `a9.html` should be stored in the repository. Describe the data and cite your sources in `a9.html`.
 
