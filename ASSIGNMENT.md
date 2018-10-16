@@ -2,9 +2,15 @@
 
 ## Description
 
-Use the countries of assignment 1 (one year & 10 countries) to build a proportional symbol map and a choropleth map with D3. The maps should have labels, legend, and title as appropriate to the map type.
+- Use the countries of assignment 1 (one year & 10 countries) to build a proportional symbol map and a choropleth map with D3.
+- Using D3 and data of your choice from the [County of Los Angeles Open Data website](https://data.lacounty.gov/GIS-Data/) show the data on a map of the *Los Angeles County*.
 
-Using npm is a good development practice and is strongly encouraged, but not required for this assignment. Using Bootstrap and Angular is also not required for this assignment, but would be a good practice as well.
+All maps should be imported as GeoJSON or TopoJSON. Data can be imported in GeoJSON, TopoJSON or in a delimiter separated format.
+The page should be properly formatted and maps documented including labels, legend, and title as appropriate to the map type.
+
+## Rubric
+
+### Development and published site (5 pts)
 
 Demonstrate good development practices:
 
@@ -12,16 +18,39 @@ Demonstrate good development practices:
 - Use incremental commits that are meaningful e.g. each commit adds one feature/component/bugfix.
 - Test that your code works before you commit.
 - Do not commit files that are not related to/needed for the assignment.
+- Using npm is a good development practice and is strongly encouraged, but not required.
+- Using Bootstrap and Angular is also not required for this assignment, but would be a good practice as well.
+- All files needed to deploy the site should be stored in the repository; however, installable libraries should **not** be stored in the repository.
 
-Publish your work on your USC SCF account (see [SCF-HOWTO.md](SCF-HOWTO.md)) and add a link to the **published** `a9.html` in [README.md](README.md). We recommend you use the URL `http://www-scf.usc.edu/~<username>/a9/a9.html` for publishing. All files needed to deploy the site should be stored in the repository; however, installable libraries should **not** be stored in the repository. Describe the data and cite your sources in `a9.html`.
+Publish your work on your USC SCF account at:
 
-## Rubric
+```url
+http://www-scf.usc.edu/~<username>/a9/
+```
 
-|               | Proportional Symbol Map | Choropleth Map | Development & Published Page |
-| ------------- | ----------------------- | -------------- | ---------------------------- |
-| Sophisticated | Map is well formatted, using appropriate projection, uses D3 data join, data is well formatted, imported as JSON or CSV, labels, title and legend are well formatted, using scales appropriately and well documented. (4-5 pts) | Map is well formatted, using appropriate projection, uses D3 data join, data is well formatted, imported as JSON or CSV, labels, title and legend are well formatted, using scales appropriately and well documented. (4-5 pts) | Use of GIT is demonstrated. Set-up and deployment are documented. Page is well formatted with a proper layout and explanatory text (4-5 pts) |
-| Competent     | Map is not well formatted, projection not appropriate, D3 data join not used well, data is not well formatted, or not imported as JSON or CSV, labels, title and legend are not well formatted, using scales is not appropriate and not well documented. (2-3 pts) | Map is not well formatted, projection not appropriate, D3 data join not used well, data is not well formatted, or not imported as JSON or CSV, labels, title and legend are not well formatted, using scales is not appropriate and not well documented. (2-3 pts) | Use of GIT is not well demonstrated. Set-up and deployment are not well documented. Page is not well formatted and or not using proper layout and or no explanatory text is provided. (2-3 pts) |
-| Needs work   | Map is not formatted, projection inappropriate, D3 data join not used, data is not formatted, not imported as JSON or CSV, labels, title and legend are not formatted, using scales is not appropriate and not documented. (0-1 pts) | Map is not formatted, projection inappropriate, D3 data join not used, data is not formatted, not imported as JSON or CSV, labels, title and legend are not formatted, using scales is not appropriate and not documented. (0-1 pts) | Use of GIT is not demonstrated. Set-up and deployment are not documented. Page is not formatted, not using proper layout, no explanatory text is provided. (0-1 pts) |
+Add a link to the **published URL** in [README.md](README.md). Describe the data and cite your sources in the page.
+
+| Quality       | Points | Description |
+| ------------- | ------ | ----------- |
+| Sophisticated | 4-5    | Use of GIT is demonstrated. Set-up and deployment are documented. Page is well formatted with a proper layout and explanatory text. |
+| Competent     | 2-3    | Use of GIT is not well demonstrated. Set-up and deployment are not well documented. Page is not well formatted and or not using proper layout and or no explanatory text is provided. |
+| Needs work    | 0-1    | Use of GIT is not demonstrated. Set-up and deployment are not documented. Page is not formatted, not using proper layout, no explanatory text is provided. |
+
+### Proportional Symbol Map (5 pts)
+
+| Quality       | Points | Description |
+| ------------- | ------ | ----------- |
+| Sophisticated | 4-5    | Map is well formatted, using appropriate projection, uses D3 data join, data is well formatted, imported using an appropriate format, labels, title and legend are well formatted, using scales appropriately and well documented. |
+| Competent     | 2-3    | Map is not well formatted, projection not appropriate, D3 data join not used well, data is not well formatted, or not imported using an appropriate format, labels, title and legend are not well formatted, use of scales inappropriate, not appropriate and not well documented. |
+| Needs work    | 0-1    | Map is not formatted, projection inappropriate, D3 data join not used, data is not formatted, not imported using an appropriate format, labels, title and legend are not formatted, use of scales is not appropriate and not documented. |
+
+### Choropleth Map (5 pts)
+
+Same rubric as the Proportional Symbol Map.
+
+### Los Angeles County Map (5 pts)
+
+Same rubric as the Proportional Symbol Map.
 
 ## Homework Guidelines
 
