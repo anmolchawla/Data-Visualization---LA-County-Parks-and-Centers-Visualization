@@ -4,6 +4,8 @@
 
 Use the countries of assignment 1 (one year & 10 countries) to build a proportional symbol map and a choropleth map with D3. The maps should have labels, legend, and title as appropriate to the map type.
 
+Using npm is a good development practice and is strongly encouraged, but not required for this assignment. Using Bootstrap and Angular is also not required for this assignment, but would be a good practice as well.
+
 Demonstrate good development practices:
 
 - Document set-up & deployment in [README.md](README.md)
