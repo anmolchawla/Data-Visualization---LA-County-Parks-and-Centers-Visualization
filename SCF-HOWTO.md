@@ -10,7 +10,7 @@ These are main steps needed to publish web pages, no matter which software you u
 1. Create `public_html` directory (folder) if it does not exist.
 2. Copy your files into `public_html`.
 3. Make `public_html` folder and files publicly readable.
-4. Check the page is accessible on your browser.
+4. Check that the pages is accessible on your browser.
 
 ## Software to connect
 
@@ -40,7 +40,7 @@ $ cat > index.html  # paste what follows, type Ctrl+D when done
 
 ```
 
-To make files readable by `www` user for `Apache` webserver to access execute:
+To make files readable by `www` user (`Apache` webserver in this instance), execute:
 
 ```bash
 $ chmod -R 755 ~/public_html
