@@ -2,11 +2,10 @@
 
 ## Description
 
-- Use the countries of assignment 1 (one year & 10 countries) to build a proportional symbol map and a choropleth map with D3.
-- Using D3 and data of your choice from the [County of Los Angeles Open Data website](https://data.lacounty.gov/GIS-Data/) show the data on a map of the *Los Angeles County*.
+- Using D3 and the countries of assignment 1 (one year & 10 countries), build a proportional symbol map and a choropleth map.
+- Using D3 and data of your choice from the [County of Los Angeles Open Data website](https://data.lacounty.gov/GIS-Data/), show the data on a map of the *Los Angeles County*. You can choose the map type.
 
-All maps should be imported as GeoJSON or TopoJSON. Data can be imported in GeoJSON, TopoJSON or in a delimiter separated format.
-The page should be properly formatted and maps documented including labels, legend, and title as appropriate to the map type.
+All maps should be imported as GeoJSON or TopoJSON. Data can be imported in GeoJSON, TopoJSON, or a delimiter-separated format (e.g. csv, tsv). The page should be properly formatted and the maps should be documented, including labels, legend, and title as appropriate to the map type.
 
 ## Rubric
 
@@ -19,8 +18,8 @@ Demonstrate good development practices:
 - Test that your code works before you commit.
 - Do not commit files that are not related to/needed for the assignment.
 - Using npm is a good development practice and is strongly encouraged, but not required.
-- Using Bootstrap and Angular is also not required for this assignment, but would be a good practice as well.
-- All files needed to deploy the site should be stored in the repository; however, installable libraries should **not** be stored in the repository.
+- Using Bootstrap and Angular is also a good development practice and is strongly encouraged, but not required.
+- All files needed to deploy the site should be stored in the repository. However, installable node packages should **not** be stored in the repository.
 
 Publish your work on your USC SCF account at:
 
@@ -28,7 +27,7 @@ Publish your work on your USC SCF account at:
 http://www-scf.usc.edu/~<username>/a9/
 ```
 
-Add a link to the **published URL** in [README.md](README.md). Describe the data and cite your sources in the page.
+Add a link to the **published URL** in [README.md](README.md). Describe the data and cite your sources in the webpage.
 
 | Quality       | Points | Description |
 | ------------- | ------ | ----------- |
