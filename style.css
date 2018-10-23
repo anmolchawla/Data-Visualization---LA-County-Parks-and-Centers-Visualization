@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(10, 5, 1);
+}
+
+svg{
+    background: #EDECED;
+}
+
+path {
+    stroke: white;
+    stroke-width: 0.25px;
+    fill: #778899;
+  }
+
+.city-labels{
+    font-size: 10px;
+}
