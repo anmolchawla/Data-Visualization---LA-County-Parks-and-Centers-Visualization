@@ -19,7 +19,7 @@ Third map: A dot map of LA county's Parks and Garden. SHows the dispersion and d
 
 All the data was imported as a csv or topojson format. 
 Incremental Git commits were made.
-The website was published at ()
+The website was published at (http://www-scf.usc.edu/~anmolcha/a9/a9.html)
 Labels, Titiles and legendd were used.
 
 After going through the web page the user will be able to make well informed inferences about the world percentage rural population and distribution of parks in the LA county area. 
