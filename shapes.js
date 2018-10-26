@@ -100,27 +100,20 @@ var maps = function(files){
 	   .on("mouseover",function(d){
 		d3.select(this)
 		.transition()
-		.duration(1000)
-		.attr("opacity","0.7")
-		.attr("r", (values(d.id)[1]));
-
-
-		svg.append("g")
-		.attr("class","names")
-		.append('text')
-		.attr('transform', 'translate(' + path.centroid(d) + ')')
-		.attr('dy', '.35em')
-		.text(values(d.id)[0] + ' : ' + values(d.id)[1] );
+		.attr("opacity","1")
+		console.log(d.id)
+		svg.append("title")
+		   .text( (values(d.id))[0] + ' : ' + (values(d.id)[1]) )
+		
 	})
 	.on("mouseout", function(d) {
 
 		d3.select(this)
 		  .transition()
-		  .duration(1000)
 		  .attr("opacity","0.5")
-		  .attr("r", values(d.id)[1]*0.5) 
 
-		  d3.select(".names").remove()
+
+		  svg.select("title").remove()
 	});
 
 
@@ -131,7 +124,7 @@ var maps = function(files){
 	 .append("text")
 	 .attr("y",225)
 	 .attr("x",0)
-	 .text("% Rural Population ")
+	 .text("% Rural Population")
 
 	circles = [0,20,40,60,80,100]
 
@@ -220,18 +213,20 @@ var maps1 = function(files){
 		  .attr("fill",function(d,i){return color(values(d.id)[1]*0.1)     })
 	       .on("mouseover",function(d){
 			   if (values(d.id)[1] != 0){
-				svg.append("g")
-				.attr("class","names")
-				.append('text')
-				.style("fill","red")
-				.style("font-weight", "bold")
-				.attr('transform', 'translate(' + path.centroid(d) + ')')
-				.attr('dy', '.35em')
-				.text(values(d.id)[0] + ' : ' + values(d.id)[1] );
+				svg.append("title")
+				.text( (values(d.id))[0] + ' : ' + (values(d.id)[1]) )
+				// svg.append("g")
+				// .attr("class","names")
+				// .append('text')
+				// .style("fill","red")
+				// .style("font-weight", "bold")
+				// .attr('transform', 'translate(' + path.centroid(d) + ')')
+				// .attr('dy', '.35em')
+				// .text(values(d.id)[0] + ' : ' + values(d.id)[1] );
 			   }
 			})
 			.on("mouseout", function(d) {
-					d3.select(".names").remove()
+					svg.select("title").remove()
 			});
 		
 
@@ -253,7 +248,7 @@ var g = svg.append("g").attr("transform", "translate(-650,300)");
       .attr("fill", "#000")
       .attr("text-anchor", "start")
       .attr("font-weight", "bold")
-      .text("Rurla Population %");
+      .text("Rurla Population %: Scale(*10)");
 
   g.call(d3.axisBottom(x)
       .tickSize(13)
@@ -343,20 +338,22 @@ console.log("parksss",parks[0].properties.name)
 	.attr("d", path)
 	.on("mouseover",function(d){
 		console.log(d.properties.name)
-	  svg.append("g")
-		 .attr("class","names")
-		 .append('text')
-		 .style("fill","black")
-		 .style("font-weight", "bold")
-		 .attr('transform', 'translate(' + path.centroid(d) + ')')
-		 .attr('dy', '.35em')
-		 .text(d.properties.name);
+
+		svg.append("title")
+		   .text( d.properties.name )
+	//   svg.append("g")
+	// 	 .attr("class","names")
+	// 	 .append('text')
+	// 	 .style("fill","black")
+	// 	 .style("font-weight", "bold")
+	// 	 .attr('transform', 'translate(' + path.centroid(d) + ')')
+	// 	 .attr('dy', '.35em')
+	// 	 .text(d.properties.name);
 
 
 	 })
 	 .on("mouseout", function(d) {
-			d3.select(".names").remove()
-			d3.select(".bg").remove()
+			svg.select("title").remove()
 	 });;
 
 return ;
