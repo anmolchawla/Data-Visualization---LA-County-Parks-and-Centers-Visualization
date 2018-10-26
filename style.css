@@ -1,17 +1,30 @@
-body {
+/* body {
     background-color: rgb(10, 5, 1);
-}
+} */
 
-svg{
+/* svg{
     background: #EDECED;
-}
+} */
 
-path {
+/* path {
     stroke: white;
     stroke-width: 0.25px;
     fill: #778899;
-  }
+  } */
 
-.city-labels{
+/* .city-labels{
     font-size: 10px;
-}
+} */
+
+div.tooltip {   
+    position: absolute;           
+    text-align: center;           
+    width: 60px;                  
+    height: 28px;                 
+    padding: 2px;             
+    font: 12px sans-serif;        
+    background: lightsteelblue;   
+    border: 0px;      
+    border-radius: 8px;           
+    pointer-events: none;         
+  }
