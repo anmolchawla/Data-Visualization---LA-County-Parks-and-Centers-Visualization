@@ -24,5 +24,9 @@ Labels, Titiles and legendd were used.
 
 After going through the web page the user will be able to make well informed inferences about the world percentage rural population and distribution of parks in the LA county area. 
 
+note:
+1. Design Consideration: The la county map which is filled with parks and gardens is extrmely dense even after scaling, hence there is overlap. The overlap is there to allow for the user to hover without problem and still understand the map. 
+2. The legend for the first map is ok, but a warning has been given regarding legends spacing. 
+3. The problem with incremental git commits was resolved after meeting the TA. 
 
 
